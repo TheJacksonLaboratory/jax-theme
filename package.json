@@ -1,0 +1,22 @@
+{
+  "name": "jax-theme",
+  "version": "0.0.1",
+  "description": "Base CSS theme resources for The Jackson Laboratory",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahcurrier/jax-theme.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "jax",
+    "css",
+    "theme"
+  ],
+  "author": "Andrew Currier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahcurrier/jax-theme/issues"
+  },
+  "homepage": "https://github.com/ahcurrier/jax-theme#readme"
+}
