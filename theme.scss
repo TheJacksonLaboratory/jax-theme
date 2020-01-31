@@ -1,18 +1,21 @@
 @font-face{
-  font-family:"D DIN Next";
-  src:url("~jax-palette/fonts/d-din.woff2") format("woff2");
+  font-family:"D-DIN";
+  src:url("~jax-theme/fonts/d-din.woff2") format("woff2");
   font-weight:400;
   font-style: normal;
 }
 
 @font-face{
-  font-family:"D DIN Next";
-  src:url("~jax-palette/fonts/d-din-bold.woff2") format("woff2");
+  font-family:"D-DIN";
+  src:url("~jax-theme/fonts/d-din-bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 
-$mat-light-blue: (
+$dark-primary-text: rgba(0,0,0,0.12);
+$light-primary-text: white;
+
+$jax-teal: (
   50: #e1f5fe,
   100: #b3e5fc,
   200: #81d4fa,
@@ -45,7 +48,7 @@ $mat-light-blue: (
   )
 );
 
-$mat-blue-grey: (
+$jax-gray: (
   50: #eceff1,
   100: #cfd8dc,
   200: #b0bec5,
