@@ -4,7 +4,7 @@
   "description": "Base CSS theme resources for The Jackson Laboratory",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ahcurrier/jax-theme.git"
+    "url": "git+https://github.com/thejacksonlaboratory/jax-theme.git"
   },
   "keywords": [
     "node",
@@ -16,7 +16,7 @@
   "author": "Andrew Currier",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ahcurrier/jax-theme/issues"
+    "url": "https://github.com/thejacksonlaboratory/jax-theme/issues"
   },
-  "homepage": "https://github.com/ahcurrier/jax-theme#readme"
+  "homepage": "https://github.com/thejacksonlaboratory/jax-theme#readme"
 }
