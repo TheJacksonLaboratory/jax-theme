@@ -1,3 +1,5 @@
+@import '//fast.fonts.net/cssapi/efdcb72e-280a-4174-a67e-d5b899002752.css';
+
 @font-face{
   font-family:"DDIN";
   src:url("node_modules/jax-theme/fonts/d-din-exp.woff2") format("woff2");
@@ -15,21 +17,23 @@
 $dark-primary-text: rgba(0,0,0,0.12);
 $light-primary-text: white;
 
+/* 700 corresponds to web standard #009ed0 */
+
 $jax-teal: (
-  50: #e1f5fe,
-  100: #b3e5fc,
-  200: #81d4fa,
-  300: #4fc3f7,
-  400: #29b6f6,
-  500: #03a9f4,
-  600: #039be5,
-  700: #0288d1,
-  800: #0277bd,
-  900: #01579b,
-  A100: #80d8ff,
-  A200: #40c4ff,
-  A400: #00b0ff,
-  A700: #0091ea,
+  50: #dffdfd,
+  100: #b1fbfb,
+  200: #7feaf9,
+  300: #4dd9f6,
+  400: #28ccf5,
+  500: #02bff3,
+  600: #02b1e4,
+  700: #009ed0,
+  800: #008dbc,
+  900: #006d9a,
+  A100: #7eeefd,
+  A200: #3fdafd,
+  A400: #00c6fd,
+  A700: #00a7e9,
   contrast: (
 	50: $dark-primary-text,
 	100: $dark-primary-text,
@@ -48,17 +52,52 @@ $jax-teal: (
   )
 );
 
+/* 900 corresponds to web standard #05396b */
+
+$jax-dark-blue: (
+  50: #cff8ff,
+  100: #b1def3,
+  200: #8dc2e0,
+  300: #6aa4cd,
+  400: #4f8cbf,
+  500: #3576b0,
+  600: #2c6aa3,
+  700: #205b92,
+  800: #154d81,
+  900: #05396b,
+  A100: #7eeefd,
+  A200: #3fdafd,
+  A400: #00c6fd,
+  A700: #00a7e9,
+  contrast: (
+  50: $dark-primary-text,
+  100: $dark-primary-text,
+  200: $dark-primary-text,
+  300: $dark-primary-text,
+  400: $dark-primary-text,
+  500: $light-primary-text,
+  600: $light-primary-text,
+  700: $light-primary-text,
+  800: $light-primary-text,
+  900: $light-primary-text,
+  A100: $dark-primary-text,
+  A200: $dark-primary-text,
+  A400: $dark-primary-text,
+  A700: $light-primary-text,
+  )
+);
+
 $jax-gray: (
-  50: #eceff1,
-  100: #cfd8dc,
-  200: #b0bec5,
-  300: #90a4ae,
-  400: #78909c,
-  500: #607d8b,
-  600: #546e7a,
-  700: #455a64,
-  800: #37474f,
-  900: #263238,
+  50: #ffffff,
+  100: #e5e9f0,
+  200: #c6cfd9,
+  300: #a6b5c2,
+  400: #8ea1b0,
+  500: #768e9f,
+  600: #6a7f8e,
+  700: #5b6b78,
+  800: #4d5863,
+  900: #3c434c,
   A100: #cfd8dc,
   A200: #b0bec5,
   A400: #78909c,
@@ -68,7 +107,7 @@ $jax-gray: (
 	100: $dark-primary-text,
 	200: $dark-primary-text,
 	300: $dark-primary-text,
-	400: $light-primary-text,
+	400: $dark-primary-text,
 	500: $light-primary-text,
 	600: $light-primary-text,
 	700: $light-primary-text,
